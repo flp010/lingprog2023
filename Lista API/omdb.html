@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scaled=1.0">
+    <title>Document</title>
+    <script src="omdb.js"></script>
+</head>
+
+<body>
+    <div>
+        <form>
+            <div>
+                <label for="titulo"> Titulo do filme</label>
+                <input type="text" id="titulo">
+            </div>
+            <div>
+                <label for="diretor"> Diretor</label>
+                <input type="text" id="diretor"readonly>
+            </div>
+            <div>
+                <div>
+                    <label for="ano"> Ano do filme</label>
+                    <input type="text" id="ano">
+                </div>
+                <div>
+                    <div>
+                        <label for="lançamento">Data de lançamento </label>
+                        <input type="text" id="lançamento">
+                    </div>
+                    <img id="poster">
+                </div>
+                <button type="button"onclick="api()">
+                    Consulta OMDB
+                </button>
+            </div>
+
+        </form>
+        
+    </div>
+</body>
+
+</html>
