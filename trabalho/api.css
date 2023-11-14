@@ -1,0 +1,33 @@
+#container {
+    background-color: rgb(157, 0, 255);
+    border: 10px solid rgb(10, 10, 10);
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    overflow: auto;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+}
+
+li{
+    padding: 5px;
+}
+
+div {
+    padding: 10px;
+}
+.titulo{
+    width: 600px;
+   height: 30px;
+}
+.corpo{
+    width: 700px;
+    height: 100px;
+    word-wrap: break-word;
+    word-break: break-all;  
+}
+
+
